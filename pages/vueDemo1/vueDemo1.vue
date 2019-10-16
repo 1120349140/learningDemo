@@ -2,8 +2,8 @@
 	<view>
 		<page-head :title="title"></page-head>
 		<view class="uni-padding-wrap uni-common-mt">
-			<view class="uni-title uni-common-mt">
-				{{appear ? '头像出现' : '头像消失'}}
+			<view class="viewText uni-title uni-common-mt">
+				{{appear ? '出现' : '消失'}}
 			</view>
 			<scroll-view class="scroll-view" scroll-y>
 				<view class="scroll-area">
@@ -63,6 +63,12 @@
 		display: flex;
 		flex-direction: column;
 		align-items: center;
+	}
+	.viewText{
+		text-align: center;
+		font-size:  40upx;
+		font-weight: bold;
+		margin-bottom: 40upx;
 	}
 
 	.notice {
