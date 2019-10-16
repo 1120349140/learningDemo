@@ -10,6 +10,18 @@
             "path" : "pages/vueDemo1/vueDemo1",
             "style" : {}
         }
+        ,{
+            "path" : "pages/image/image",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/components/button/button",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/components/recorder/recorder",
+            "style" : {}
+        }
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",

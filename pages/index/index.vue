@@ -1,8 +1,25 @@
 <template>
 	<view class="content">
-		<image class="logo" src="/static/logo.png"></image>
+		
 		<view class="text-area">
-			<text class="title">{{title}}</text>
+			<navigator url="../image/image">
+			<button plain="true">image</button>
+			</navigator>
+		</view>
+		<view class="text-area">
+			<navigator url="../components/button/button">
+			<button plain="true">button</button>
+			</navigator>
+		</view>
+		<view class="text-area">
+			<navigator url="../vueDemo1/vueDemo1">
+			<button plain="true">intersectionObserver</button>
+			</navigator>
+		</view>
+		<view class="text-area">
+			<navigator url="../components/recorder/recorder">
+			<button plain="true">recorder</button>
+			</navigator>
 		</view>
 	</view>
 </template>
@@ -30,23 +47,10 @@
 		align-items: center;
 		justify-content: center;
 	}
-
-	.logo {
-		height: 200rpx;
-		width: 200rpx;
-		margin-top: 200rpx;
-		margin-left: auto;
-		margin-right: auto;
-		margin-bottom: 50rpx;
-	}
-
-	.text-area {
-		display: flex;
-		justify-content: center;
-	}
-
-	.title {
-		font-size: 36rpx;
-		color: #8f8f94;
+	button {
+		width: 450upx;
+		margin-top: 30upx;
+		margin-bottom: 30upx;
+		border: 3px solid #B2B2B2;
 	}
 </style>
